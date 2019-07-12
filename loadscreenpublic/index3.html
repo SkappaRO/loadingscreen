@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Glitch effect by xterminator10xf</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Barlow:500,800" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo3.css" />
+        <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+	</head>
+	<body class="demo-3 loading">
+		<main>
+			<div class="content content--top">
+				
+                <!--aici vine serverul de discord in loc de #|
+                here comes the discord server,put it instead of the first #  -->
+					<h1 class="loader-header__title"><a href="#"><i class="fab fa-discord">discord</i></a></h1>
+					<span class="info">|Fivem server here|</span>
+				
+				<a class="space" href="#" title="..."></a>
+				<nav class="demos">
+					
+					<a class="demo" href="#"><span>Press ENTER to start/stop music</span></a>
+					
+				</nav>
+			</div>
+			<div class="grid">
+				<div class="grid__item">
+					<div class="glitch glitch--style-1">
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+					</div>
+					<h2 class="grid__item-title">Roleplay de  <span>calitate</span></h2>
+				</div>
+				<div class="grid__item">
+					<div class="glitch glitch--style-2">
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+					</div>
+					<h2 class="grid__item-title">staff <span>matur</span></h2>
+				</div>
+				<div class="grid__item">
+					<div class="glitch glitch--vertical glitch--style-3">
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+					</div>
+					<h2 class="grid__item-title">Eventuri <span>zilnice</span></h2>
+				</div>
+				<div class="grid__item">
+					<div class="glitch glitch--style-4">
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+					</div>
+					<h2 class="grid__item-title">Server <span>custom</span></h2>
+				</div>
+				<div class="grid__item">
+					<div class="glitch glitch--style-5">
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+					</div>
+					<h2 class="grid__item-title">vip 1 <span>10e</span></h2>
+				</div>
+				<div class="grid__item">
+					<div class="glitch glitch--style-6">
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+						<div class="glitch__img"></div>
+					</div>
+					<h2 class="grid__item-title">vip 2 <span>20e</span></h2>
+				</div>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/demo.js"></script>
+        <audio id="billie" src="copycat.ogg" autoplay="true" hidden="true" loop="false"/>
+<script>
+var play = true;
+
+var myAudio = document.getElementById("billie");
+
+function onKeyDown(event) {
+        switch (event.keyCode) {
+            case 13: //enter                    
+                if (play) {
+                    myAudio.pause();
+                    play = false;
+                } else {
+                    myAudio.play();
+                    play = true;
+                }
+                break;
+        }
+  return false;
+}
+
+window.addEventListener("keydown", onKeyDown, false);
+</script>       
+	</body>
+</html>
