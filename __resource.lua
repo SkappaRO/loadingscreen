@@ -1,4 +1,4 @@
-description 'LOADING SCREEN | Made by XTREME and BREFABY'
+description 'LOADING SCREEN | Made by XTERMINATOR and BREFABY'
 
 files {
     "/loadscreenpublic/copycat.ogg",
